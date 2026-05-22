@@ -1,0 +1,50 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
+
+# Load dataset
+df = pd.read_csv("customers.csv")
+
+# Remove commas from Income column
+df["Income"] = df["Income"].astype(str).str.replace(",", "")
+
+# Convert to numbers
+df["Income"] = df["Income"].astype(float)
+df["SpendingScore"] = df["SpendingScore"].astype(float)
+
+# Select features
+X = df[["Income", "SpendingScore"]]
+
+# Create KMeans model
+kmeans = KMeans(n_clusters=3, random_state=42)
+
+# Predict clusters
+df["Cluster"] = kmeans.fit_predict(X)
+
+# Print results
+print(df)
+
+# Plot graph
+plt.scatter(
+    df["Income"],
+    df["SpendingScore"],
+    c=df["Cluster"]
+)
+
+# Plot centroids
+plt.scatter(
+    kmeans.cluster_centers_[:, 0],
+    kmeans.cluster_centers_[:, 1],
+    marker="X",
+    s=200
+)
+
+# Labels
+plt.xlabel("Income")
+plt.ylabel("Spending Score")
+plt.title("Customer Segmentation")
+
+df.to_csv("customers_clustered.csv", index=False)
+
+# Show graph
+plt.show()
