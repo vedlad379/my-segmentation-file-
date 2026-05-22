@@ -73,7 +73,7 @@ Python Implementation
 5. Visualized clusters using scatter plot
 
 
-
+<img width="1251" height="645" alt="Screenshot 2026-05-08 144627" src=github.com/vedlad379/my-segmentation-file-/blob/ad9caca50665f0b072844f090a63ee53d9b8854a/powerbl.png
 
 
 
