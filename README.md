@@ -23,8 +23,6 @@ Technologies Used
 * Jupyter Notebook
 * Power BI
 
-
-
 Features
 
 * Customer data analysis
@@ -94,7 +92,7 @@ The clustered dataset was imported into Power BI for visualization.
 * KPI Cards
 * Interactive Filters
 
----
+
 
 # Project Workflow
 
@@ -111,6 +109,8 @@ Cluster Visualization
         ↓
 Power BI Dashboard
 
+dashborad-
+![image alt](https://github.com/vedlad379/my-segmentation-file-/blob/718ea5d31d9db465fe2b609d5e1dbeb203a1a864/Screenshot%202026-05-22%20180042%20-%20Copy.png)
 
 Output
 
