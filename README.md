@@ -37,8 +37,13 @@ Features
 
 <a herf-https://github.com/vedlad379/my-segmentation-file-/blob/fc3ec7576026dcfb9e58974e1c4d998dd51d9226/python%20code%20for%20data%20anyalses
 
+<a herf-https://github.com/vedlad379/my-segmentation-file-/blob/ad9caca50665f0b072844f090a63ee53d9b8854a/customer.ipynb
 
+<a herf-https://github.com/vedlad379/my-segmentation-file-/blob/ad9caca50665f0b072844f090a63ee53d9b8854a/customers%20analyse.pbix
 
+<a herf-https://github.com/vedlad379/my-segmentation-file-/blob/ad9caca50665f0b072844f090a63ee53d9b8854a/customers_clustered.csv
+
+<a herf-https://github.com/vedlad379/my-segmentation-file-/blob/ad9caca50665f0b072844f090a63ee53d9b8854a/powerbl.png
 
  Dataset
 
@@ -55,7 +60,7 @@ Example:
 | 86769      | 15000  | 39            |
 | 45745      | 24232  | 81            |
 
----
+
 
 Python Implementation
 
@@ -67,7 +72,10 @@ Python Implementation
 4. Generated customer clusters
 5. Visualized clusters using scatter plot
 
----
+
+
+
+
 
  K-Means Clustering
 
