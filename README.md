@@ -72,11 +72,6 @@ Python Implementation
 4. Generated customer clusters
 5. Visualized clusters using scatter plot
 
-
-<img width="1251" height="645" alt="Screenshot 2026-05-08 144627" src=https://github.com/vedlad379/my-segmentation-file-/blob/ad9caca50665f0b072844f090a63ee53d9b8854a />
-
-
-
  K-Means Clustering
 
 K-Means algorithm groups similar customers together based on:
