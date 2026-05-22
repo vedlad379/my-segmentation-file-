@@ -111,6 +111,8 @@ Power BI Dashboard
 
 dashborad-
 ![image alt](https://github.com/vedlad379/my-segmentation-file-/blob/718ea5d31d9db465fe2b609d5e1dbeb203a1a864/Screenshot%202026-05-22%20180042%20-%20Copy.png)
+![image alt](https://github.com/vedlad379/my-segmentation-file-/blob/9e47fa8eeff5b6bb487a169a3bc393b1a0ebf344/Screensht%202026-05-2%20175516%20-%20Copy.png)
+![image alt](https://github.com/vedlad379/my-segmentation-file-/blob/9e47fa8eeff5b6bb487a169a3bc393b1a0ebf344/powerbl.png)
 
 Output
 
